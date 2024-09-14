@@ -1311,6 +1311,7 @@ font-size: 41px;
 
 @media(max-width:1225px){
     .box{right: -515px;}
+    .earing-down.owl-carousel{top: -20px;}
 }
 
 
@@ -1399,6 +1400,11 @@ font-size: 41px;
                 width: 400px !important;
                 left: -25px;
             }
+            .earing-head {
+                
+                height: 270px;}
+                .earing-down.owl-carousel {
+                    top: -15px;}
 }
 
 
@@ -1423,6 +1429,8 @@ font-size: 41px;
     .parts-top {font-size: 15px;}
     .doct-top {
         width: 80%;}
+        .earing-down.owl-carousel {
+            top: -15px;}
 
     
 }
@@ -1558,6 +1566,8 @@ font-size: 41px;
     .box {right: -380px;}
     .testimonials-img {
         left: 180px; top: 0px;}
+        .earing-down.owl-carousel {
+            top: -9px;}
     
  
 }
@@ -1634,6 +1644,8 @@ font-size: 41px;
                     left: 155px;}
                     .testimonials-info {
                         width: 430px;}
+                        .parts-top h3 a {
+                            padding: 20px 145px;}
 
 
 
@@ -1688,6 +1700,8 @@ font-size: 41px;
     .nav-button {width: 14px;height: 14px;}
     .testimonial-content{left: -30px;}
     .box{display: none;}
+    .parts-top h3 a {
+        padding: 20px 135px;}
 
 }
 
@@ -1743,8 +1757,9 @@ font-size: 41px;
         margin-top: -30px;}
         .treatment-content h1 {margin-top: -50px;}
        .parts-down{flex-direction: column;}
-       .parts-down{width: 80%;}
-
+       .parts-down{width: 100%;}
+       .ent-left img { width: 100%;}
+       .parts-top h3 a { padding: 22px 115px;}
        .parts-top{font-size: 15px;}
        .nose-one{width: 80%;}
        .nose-two{width: 80%;}
@@ -1795,6 +1810,9 @@ font-size: 41px;
         right: -52%;}
         .testimonials-img {
             left: 105px;}
+            .parts-down {width: 100%;}
+            .parts-top h3 a {
+                padding: 20px 105px;}
 }
 
 @media(max-width:400px){
@@ -1815,6 +1833,8 @@ font-size: 41px;
         width: 300px;}
         .testimonials-img {
             left: 100px;}
+            .parts-top h3 a {
+                padding: 20px 98px;}
 
 }
 
@@ -1833,6 +1853,8 @@ font-size: 41px;
                 left: 95px;}
                 .rating {
                     right: -44%;}
+                    .parts-top h3 a {
+                        padding: 20px 95px;}
 
 }
 @media(max-width:350px){
