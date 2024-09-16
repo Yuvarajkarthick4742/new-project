@@ -1454,6 +1454,10 @@ transform: scale(1.5);
     .doctorCarousel.owl-carousel{ overflow: hidden;}
     .doctorCarousel.owl-carousel .owl-stage-outer .owl-item{left: -25px;}
     .earing-head {height: 270px;}
+    .earing-head::before {
+        content: "";
+        background: rgb(211 217 224 / 80%) none repeat scroll 0 0;
+        position: absolute;height: 270px;}
     .earing-down.owl-carousel {top: -15px;}
     .doctor-content p{margin-bottom: 5px;}
     .header-right{gap: 45px;}
@@ -1650,6 +1654,8 @@ transform: scale(1.5);
     .doct-top { left: 25px;} 
     .doctorCarousel.owl-carousel{width: 90%;}
     .doct-content h3{font-size: 11px;}
+    .earing-down.owl-carousel {
+        top: -5px;}
 }
 
 
@@ -1892,6 +1898,7 @@ transform: scale(1.5);
     .carousel-left p { margin-top: -185px; margin-left: -19px;}
     .treatment-content h1 {  font-size: 29px;}
     .earing-down {left: 45px;}
+    
     /* .doct-img img {left: 38px;} */
     .foot-resp-container h2 {font-size: 14px;}
     .testimonial-para {width: 250px;}
