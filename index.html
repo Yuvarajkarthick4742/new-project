@@ -626,7 +626,7 @@
                   <div class="foot-resp-one">
                     <div class="foot-resp-svg">
                     <h2 class="foot-resp-h2">Quick Links</h2>
-                    <svg class="foot-svg1" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"><path fill="currentColor" d="m488.832 344.32l-339.84 356.672a32 32 0 0 0 0 44.16l.384.384a29.44 29.44 0 0 0 42.688 0l320-335.872l319.872 335.872a29.44 29.44 0 0 0 42.688 0l.384-.384a32 32 0 0 0 0-44.16L535.168 344.32a32 32 0 0 0-46.336 0"/></svg>
+                   <span class="footer-svg1"></span>
                 </div>
                     <hr>
                     <div class="foot-one1">
@@ -642,7 +642,7 @@
                   <div class="foot-resp-two">
                     <div class="foot-resp-svg2">
                     <h2 class="foot-resp-h2-2">Treatments</h2>
-                    <svg class="foot-svg2" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"><path fill="currentColor" d="m488.832 344.32l-339.84 356.672a32 32 0 0 0 0 44.16l.384.384a29.44 29.44 0 0 0 42.688 0l320-335.872l319.872 335.872a29.44 29.44 0 0 0 42.688 0l.384-.384a32 32 0 0 0 0-44.16L535.168 344.32a32 32 0 0 0-46.336 0"/></svg>
+                    <span class="footer-svg2"></span>
                 </div>
                     <hr>
                     <div class="foot-two2">
@@ -659,7 +659,7 @@
                   <div class="foot-resp-three">
                     <div class="foot-resp-svg3">
                     <h2 class="foot-resp-h2-3">About Us</h2>
-                    <svg class="foot-svg3" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"><path fill="currentColor" d="m488.832 344.32l-339.84 356.672a32 32 0 0 0 0 44.16l.384.384a29.44 29.44 0 0 0 42.688 0l320-335.872l319.872 335.872a29.44 29.44 0 0 0 42.688 0l.384-.384a32 32 0 0 0 0-44.16L535.168 344.32a32 32 0 0 0-46.336 0"/></svg>
+                    <span class="footer-svg3"></span>
                 </div> <hr>
                     <div class="foot-three3">
                         <ul >
@@ -677,7 +677,7 @@
                   <div class="foot-resp-four">
                     <div class="foot-resp-svg4">
                     <h2 class="foot-resp-h2-4">Reach Us</h2>
-                    <svg class="foot-svg4" xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 1024 1024"><path fill="currentColor" d="m488.832 344.32l-339.84 356.672a32 32 0 0 0 0 44.16l.384.384a29.44 29.44 0 0 0 42.688 0l320-335.872l319.872 335.872a29.44 29.44 0 0 0 42.688 0l.384-.384a32 32 0 0 0 0-44.16L535.168 344.32a32 32 0 0 0-46.336 0"/></svg>
+                    <span class="footer-svg4"></span>
                 </div>
                     <hr>
                     <div class="foot-four4">
@@ -778,42 +778,10 @@ lines.forEach((line, index) => {
 
 // Initial display
 showSlide(currentIndex);
+
     </script>
 
-    <!-- <script>
-        $(document).ready(function() {if ( $(window).width() < 1441) {startCarouselyt();} else {$('.testimonial-carousel').addClass('off');}});    
-         $(window).resize(function() {if ( $(window).width() < 1441 ) {startCarouselyt();} else {stopCarousel();}});
-		 function startCarouselyt(){       
-           $(".testimonial-carousel").owlCarousel({
-              slideSpeed : 500,
-              margin:10,
-              paginationSpeed : 400,
-              autoplay:true,
-               autoplayHoverPause:true,
-              items : 1,
-                dots: true,
-              loop:true,
-              nav:false,
-              responsive: {
-    0: {
-        items: 1
-    },
-    600: { // You can use 600 or 767 as per your preference
-        items: 2
-    },
-    994: {
-        items: 3
-    }
-}
-           });
-         }
-		  
-		   function stopCarousel() {
-           var owl = $('.twocols');
-           owl.trigger('destroy.owl.carousel');
-           owl.addClass('off');
-         }
-    </script> -->
+   
     <script>
         $(document).ready(function() {
             $('.foot-resp-svg').click(function() {
@@ -850,7 +818,7 @@ showSlide(currentIndex);
 <script>
     $(document).ready(function() {
         $('.foot-resp-svg').click(function() {
-            $('.foot-svg1').toggleClass('foot-svg-new1');
+            $('.footer-svg1').toggleClass('foot-svg-new1');
         });
     });
 </script>
@@ -858,7 +826,7 @@ showSlide(currentIndex);
 <script>
     $(document).ready(function() {
         $('.foot-resp-svg2').click(function() {
-            $('.foot-svg2').toggleClass('foot-svg-new2');
+            $('.footer-svg2').toggleClass('foot-svg-new2');
         });
     });
 </script>
@@ -866,7 +834,7 @@ showSlide(currentIndex);
 <script>
     $(document).ready(function() {
         $('.foot-resp-svg3').click(function() {
-            $('.foot-svg3').toggleClass('foot-svg-new3');
+            $('.footer-svg3').toggleClass('foot-svg-new3');
         });
     });
 </script>
@@ -874,7 +842,7 @@ showSlide(currentIndex);
 <script>
     $(document).ready(function() {
         $('.foot-resp-svg4').click(function() {
-            $('.foot-svg4').toggleClass('foot-svg-new4');
+            $('.footer-svg4').toggleClass('foot-svg-new4');
         });
     });
 </script>
@@ -1116,7 +1084,7 @@ navText : ['<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewB
           $(".earingCarousel").owlCarousel({
              slideSpeed : 500,
              margin:10,
-             paginationSpeed : 400,
+             paginationSpeed : 300,
              autoplay:true,
               autoplayHoverPause:true,
              items : 1,
