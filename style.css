@@ -44,10 +44,12 @@ body{
     font-family: "Libre Franklin";
     font-size: 13px;
     font-weight: 600;
+    transition: transform 0.5s ease-in-out;
 }
 
 .header-right a:hover {
     color: #b86628;
+    transform:  scale(1.1);
 }
 
 .header-right {
@@ -219,7 +221,7 @@ background-color: #333;
 }
 .carousel-left p{
     font-size: 40px;
-    font-family: "Libre Franklin", ;
+    font-family: "Libre Franklin";
     color: white;
     margin: 0px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
@@ -601,7 +603,7 @@ transform: scale(1.2) ;
    
 }
 .earing-svg{
- transition:transform 0.3s ease-in-out;
+ transition:transform 0.5s ease-in-out;
 }
 .earing-svg:hover{
      transform: scale(1.1);
@@ -1305,7 +1307,8 @@ transform: scale(1.5);
 .address{margin: 0%;}
 
 .blogs-down.blogCarousel.owl-carousel{
-    display: block;
+    display: flex;
+    
 }
 .parts-down {display: flex;}
 .id-one{
@@ -1502,12 +1505,16 @@ transform: scale(1.5);
     .earing-down.owl-carousel {top: -15px;}
     .doctor-content p{margin-bottom: 5px;}
     .header-right{gap: 45px;}
+    
     .blogCarousel .owl-dots{text-align: center;margin-top: 20px;display: flex;justify-content: center;}
     .blogCarousel .owl-dots .owl-dot{height: 7px; width: 23px;  margin: 0 5px; background-color: #c2c2c2;display: inline-block;transition: background-color 0.5s ease;border-radius: 2px; transition: 0.3s ease-in-out;cursor: pointer;}
     .blogCarousel .owl-dots .owl-dot.active{ background-color: #6e7691; }
 
 
-
+    .blogs-down.blogCarousel.owl-carousel{
+        display: flex;
+        flex-direction: column;
+    }
 
     .doctorCarousel  .owl-dots{text-align: center;margin-top: 20px;display: flex;justify-content: center;}
     .doctorCarousel  .owl-dots .owl-dot{height: 7px; width: 23px;  margin: 0 5px; background-color: #c2c2c2;display: inline-block;transition: background-color 0.5s ease;border-radius: 2px; transition: 0.3s ease-in-out;cursor: pointer;}

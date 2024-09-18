@@ -1,0 +1,189 @@
+.holistic-head{
+    width: 100%;
+    height: auto;
+   
+}
+.holistic-container{
+    width: 100%;
+    margin: auto;
+    background-image: url(./holistic-ent-care.webp);
+    background-position: center;
+    height: 350px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.holistic-container::before{
+    content: "";
+    background: rgba(194, 200, 205, 0.63)none repeat scroll 0 0;
+   position: absolute;
+   height: 350px;
+   width: 100%;
+}
+.holistic-content{
+    width: 35%;
+    height: auto;
+    position: absolute;
+    z-index: 2;
+    left: 280px;
+    top: 120px;
+
+}
+
+.holistic-content h2{
+    color: #e47c24;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Libre Baskerville";
+    margin-bottom: 0px;
+}
+.holistic-content p{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "libre Franklin";
+    color: #1a2752;
+}
+
+.rhinology-head{
+    width: 100%;
+    height: auto;
+}
+.rhinology-container{
+    width: 90%;
+    margin: auto;
+}
+.rhinology-h1{
+    font-size: 45px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Libre Baskerville";
+    letter-spacing: 1px;
+    color: #1a2752;
+}
+.rhinology-boxes{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    
+}
+.rhinology-boxes:hover img{
+    transform: scale(1.05);
+    content: '';
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+}
+.rhinology-boxes img{
+    width: 100%;
+    transition:0.7s ease-in-out;
+}
+
+.rhinology-boxes p{
+     font-family: "Libre Baskerville";
+     text-align: center;
+     color: #1a2752;
+     width: 100%;
+     font-weight: 600;
+     transition:3s ease-in-out;
+
+}
+.rhinology-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 50px;
+}
+
+
+
+@media (max-width:1184px){
+    .holistic-content h2{font-size: 34px;}
+    .holistic-content p{font-size: 17px;}
+    .holistic-content{left: 220px;}
+    .rhinology-boxes p{font-size: 14px;}
+
+}
+@media (max-width:1100px){
+    .rhinology-boxes p{font-size: 13px;}
+    .holistic-content h2 {font-size: 32px;}
+    .holistic-content p {font-size: 16px;}
+    .holistic-content {left: 180px;}
+    .rhinology-h1 {font-size: 40px;}
+}
+@media (max-width:1028px){
+    .holistic-content h2 {font-size: 30px;}
+    .holistic-content p {font-size: 15px;}
+    .holistic-content {width: 35%;}
+    .holistic-content {left: 155px;}
+}
+@media (max-width:992px){
+    .holistic-content {left: 135px;}
+    .holistic-content {width: 37%;}
+    .holistic-container {height: 250px;}
+    .holistic-container::before{height: 250px;}
+    .rhinology-boxes p {font-size: 15px;}
+    .holistic-content{top: 90px;}
+}
+@media (max-width:913px){
+    .holistic-content {left: 100px;}
+    .rhinology-content {display: grid; grid-template-columns: repeat(2, 1fr);}
+}
+@media (max-width:851px){
+    .holistic-content {left: 60px;}
+    .rhinology-h1 {font-size: 38px;}
+    
+}
+
+@media (max-width:800px){
+    .holistic-content{ width: 40%;}
+}
+@media (max-width:800px){
+    .holistic-content p {font-size: 14px;}
+    .holistic-content{ width: 45%;}
+}
+@media (max-width:700px){
+    .holistic-content h2 {font-size: 28px;}
+    .rhinology-h1 {font-size: 37px;}
+    
+}
+@media (max-width:650px){
+    .rhinology-content {display: grid; grid-template-columns: repeat(1, 1fr);}
+    .rhinology-boxes {width: 70%;}
+}
+@media (max-width:600px){
+    .holistic-content h2 {font-size: 27px;}
+    .holistic-content{ width: 48%;}
+    .holistic-content {top: 125px;}
+}
+@media (max-width:550px){
+    .holistic-content{ width: 60%;}
+    .rhinology-boxes {width: 80%}
+    .rhinology-h1 {font-size: 35px;}
+}
+@media (max-width:500px){
+    .holistic-content {top: 115px;}
+}
+@media (max-width:481px){
+    .holistic-content h2 {font-size: 26px;}
+    .rhinology-container {width: 95%;}
+    .rhinology-h1 {font-size: 34px;}
+}
+@media (max-width:430px){
+    .holistic-content {width: 70%}
+    .holistic-content {left: 40px;}
+    
+}
+@media (max-width:400px){
+    .rhinology-boxes p {font-size: 14px;}
+    .holistic-content {width: 75%;}
+}
+@media (max-width:375px){
+    .holistic-content p {font-size: 13px;}
+    .rhinology-h1 {font-size: 32px;}
+    .rhinology-boxes p {font-size: 13px;}
+}
+@media (max-width:350px){
+    .holistic-content h2 {font-size: 25px;}
+    .rhinology-boxes p {font-size: 12px;}
+}
+@media (max-width:324px){
+    .holistic-content h2 {font-size: 24px;}
+}
