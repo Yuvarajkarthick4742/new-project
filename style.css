@@ -1492,10 +1492,10 @@ transform: scale(1.5);
 }
 
 @media(max-width:992px){
-    .doct-top { width: 90%;left: 35px;}
+    .doct-top { width: 100%;left:25px;}
     .doct-img img {width: 170px; height: 160px;left: 55px;}
-    .doctorCarousel.owl-carousel .owl-stage-outer{ overflow: visible !important; overflow-y: hidden;}
-    .doctorCarousel.owl-carousel{ overflow: hidden;}
+    .doctorCarousel.owl-carousel .owl-stage-outer{display: block !important; width: 100%; overflow: hidden !important; overflow-y: hidden;}
+    .doctorCarousel.owl-carousel{ overflow: hidden;display: block !important}
     .doctorCarousel.owl-carousel .owl-stage-outer .owl-item{left: -25px;}
     .earing-head {height: 270px;}
     .earing-head::before {
@@ -1505,6 +1505,7 @@ transform: scale(1.5);
     .earing-down.owl-carousel {top: -15px;}
     .doctor-content p{margin-bottom: 5px;}
     .header-right{gap: 45px;}
+    .doctorCarousel .owl-carousel{display: block !important;}
     
     .blogCarousel .owl-dots{text-align: center;margin-top: 20px;display: flex;justify-content: center;}
     .blogCarousel .owl-dots .owl-dot{height: 7px; width: 23px;  margin: 0 5px; background-color: #c2c2c2;display: inline-block;transition: background-color 0.5s ease;border-radius: 2px; transition: 0.3s ease-in-out;cursor: pointer;}
@@ -1627,6 +1628,7 @@ transform: scale(1.5);
     .dot { height: 5px;width: 20px;}
     .earingCarousel .owl-dots .owl-dot { height: 5px;width: 20px;}
     .blogCarousel .owl-dots .owl-dot { height: 5px;width: 20px;}
+    .doctorCarousel .owl-dots .owl-dot { height: 5px;width: 20px;}
     .doct-profile a,.doct-book a{margin: 0px;}
     .doct-profile a{border: 1px solid black;}
 
@@ -1714,6 +1716,7 @@ transform: scale(1.5);
     .dot {height: 4px;width: 17px;}
     .earingCarousel .owl-dots .owl-dot { height: 4px;width: 17px;}
     .blogCarousel .owl-dots .owl-dot { height: 4px;width: 17px;}
+    .doctorCarousel .owl-dots .owl-dot { height: 4px;width: 17px;}
     .testimonials-info {width: 445px;}
     .doct-content h2 {font-size: 16px;}
     .doct-content h3{font-size: 12px;}
@@ -1863,6 +1866,7 @@ transform: scale(1.5);
     .dot { height: 3px; width: 15px;}
     .blogCarousel .owl-dots .owl-dot { height: 3px;width: 15px;}
     .earingCarousel .owl-dots .owl-dot { height: 3px;width: 15px;}
+    .doctorCarousel .owl-dots .owl-dot { height: 3px;width: 15px;}
     .side-menu{width: 220px;}
     
 }

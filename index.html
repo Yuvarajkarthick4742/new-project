@@ -370,7 +370,7 @@
 
 
     <section class="doct-head">
-        <div class="doct-container doctorCarousel owl-carousel off">
+        <div class="doct-container doctorCarousel owl-carousel">
             <div class="doct-top">
                 <div class="doct-img">
                     <div>
@@ -987,7 +987,7 @@ showSlide(currentIndex);
 </script>
 
 
-<script>
+<!-- <script>
 $(document).ready(function() {if ( $(window).width() < 992 ) {startCarousel2();} else {$('.doctorCarousel').addClass('off');}});    
 $(window).resize(function() {if ( $(window).width() < 992 ) {startCarousel2();} else {stopCarousel();}}); 
 
@@ -1077,7 +1077,46 @@ navText : ['<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewB
        }
 
 });} */
+</script> -->
+
+
+<script>
+    $(document).ready(function() {if ( $(window).width() < 992 ) {doctorCarousel();} else {$('.blogCarousel').addClass('off');}});    
+        $(window).resize(function() {if ( $(window).width() < 992 ) {doctorCarousel();} else {stopCarousel();}});
+        function doctorCarousel(){       
+          $(".doctorCarousel").owlCarousel({
+             slideSpeed : 500,
+             margin:10,
+             paginationSpeed : 400,
+             autoplay:true,
+              autoplayHoverPause:true,
+             items : 1,
+               dots: true,
+             loop:true,
+             nav:false,
+             responsive: {
+   0: {
+       items: 1
+   },
+   600: { // You can use 600 or 767 as per your preference
+       items: 2
+   },
+   994: {
+       items: 3
+   }
+}
+          });
+        }
+         
+          function stopCarousel() {
+          var owl = $('.twocols');
+          owl.trigger('destroy.owl.carousel');
+          owl.addClass('off');
+        }
 </script>
+
+
+
 <script>
     $(document).ready(function() {if ( $(window).width() < 992 ) {earingCarousel();} else {$('.earingCarousel').addClass('off');}});    
         $(window).resize(function() {if ( $(window).width() < 992 ) {earingCarousel();} else {stopCarousel();}});
