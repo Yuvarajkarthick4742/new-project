@@ -14,7 +14,7 @@
 }
 .holistic-container::before{
     content: "";
-    background: rgba(194, 200, 205, 0.63)none repeat scroll 0 0;
+    background: rgba(63, 65, 67,0.63)none repeat scroll 0 0;
    position: absolute;
    height: 350px;
    width: 100%;
@@ -30,7 +30,7 @@
 }
 
 .holistic-content h2{
-    color: #e47c24;
+    color: #fcfbfb;
     font-size: 35px;
     font-weight: 700;
     font-family: "Libre Baskerville";
@@ -38,9 +38,9 @@
 }
 .holistic-content p{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 500;
     font-family: "libre Franklin";
-    color: #1a2752;
+    color: white;
 }
 
 .rhinology-head{
