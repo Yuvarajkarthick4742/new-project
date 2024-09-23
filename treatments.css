@@ -64,6 +64,8 @@
     height: auto;
     margin: auto;
     overflow: hidden;
+    border: .5px solid black;
+    margin-bottom: 20px;
     
 }
 .rhinology-boxes:hover img{
