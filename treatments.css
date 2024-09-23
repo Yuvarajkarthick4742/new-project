@@ -6,7 +6,7 @@
 .holistic-container{
     width: 100%;
     margin: auto;
-    background-image: url(./holistic-ent-care.webp);
+    background-image: url(./treatuhhhh);
     background-position: center;
     height: 350px;
     background-repeat: no-repeat;
@@ -63,18 +63,18 @@
     width: 90%;
     height: auto;
     margin: auto;
+    overflow: hidden;
     
 }
 .rhinology-boxes:hover img{
     transform: scale(1.05);
     content: '';
-    display: flex;
-    overflow: hidden;
+  
     cursor: pointer;
 }
 .rhinology-boxes img{
     width: 100%;
-    transition:0.7s ease-in-out;
+    transition:0.5s ease-in-out;
 }
 
 .rhinology-boxes p{

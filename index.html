@@ -28,7 +28,7 @@
             </div>
             <div class="header-right">
                 <ul class="header-right">
-                    <li class="menu-bar"><a href="#">Home</a></li>
+                    <li class="menu-bar"><a href="./index.html">Home</a></li>
                     <li class="menu-bar"><a href="./treatments.html">Treatments</a></li>
                     <li class="menu-bar"><a href="./doctors.html">Doctors</a></li>
                     <!-- <li class="menu-bar"></li> -->
@@ -38,8 +38,19 @@
                 <!-- Side menu content -->
                 <div id="side-menu" class="side-menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./treatments.html">Treatments</a></li>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./treatments.html">Treatments</a>
+                        <ul class="treatment-topics">
+                            <li><a href="./implant.html">Implant Otology</a></li>
+                            <li><a href="./brainstem.html">Ear</a></li>
+                            <li><a href="./rhinology.html">Rhinology</a></li>
+                            <li><a href="./Laryngology.html">Laryngology</a></li>
+                            <li><a href="./headneck.html">Head & Neck</a></li>
+                            <li><a href="./allergy.html">Allergy Clinic</a></li>
+                            <li><a href="./snoring.html">Snoring & sleep Aponea</a></li>
+                        </ul>
+                        <span class="treatment-topic-svg"> </span>
+                        </li>
                         <li><a href="./doctors.html">Doctors</a></li>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -82,7 +93,7 @@
                 <p>A New Generation of</p>
                 <h2>Hearing <br> Technology</h2>
                 <div class="carosel-last">
-                <a class="carosel-one" href="#">VIEW MORE</a>
+                <a class="carosel-one" href="./treatments.html">VIEW MORE</a>
                 <a class="carosel-two" href="#">APPOINTMENT</a>
             </div>
             </div>
@@ -864,6 +875,8 @@ showSlide(currentIndex);
     });
 </script>
 
+
+
 <script>
     $(document).ready(function() {
         $('.foot-resp-h2-4').click(function() {
@@ -1165,6 +1178,14 @@ navText : ['<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewB
         menuToggle.classList.toggle('active');
     });
 });
+</script>
+<script>
+    $(document).ready(function() {
+        $('.treatment-topic-svg').click(function() {
+            $('.treatment-topic-svg').toggleClass('down');
+            $('.treatment-topics').toggleClass('down-ul');
+        });
+    });
 </script>
 
 

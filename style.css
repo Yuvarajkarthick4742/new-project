@@ -34,7 +34,6 @@ body{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    align-items: center;
     margin-top: 25px;
 }
 
@@ -46,7 +45,30 @@ body{
     font-weight: 600;
     transition: transform 0.5s ease-in-out;
 }
+.treatment-topic-svg.down{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
 
+.treatment-topic-svg.down{
+    content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNXB4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0iTTgzMS44NzIgMzQwLjg2NEw1MTIgNjUyLjY3MkwxOTIuMTI4IDM0MC44NjRhMzAuNTkgMzAuNTkgMCAwIDAtNDIuNzUyIDBhMjkuMTIgMjkuMTIgMCAwIDAgMCA0MS42TDQ4OS42NjQgNzE0LjI0YTMyIDMyIDAgMCAwIDQ0LjY3MiAwbDM0MC4yODgtMzMxLjcxMmEyOS4xMiAyOS4xMiAwIDAgMCAwLTQxLjcyOGEzMC41OSAzMC41OSAwIDAgMC00Mi43NTIgMHoiLz48L3N2Zz4=');
+}
+.treatment-topic-svg::before
+{
+    content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNXB4IiBoZWlnaHQ9IjE1cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiPjxwYXRoIGZpbGw9ImN1cnJlbnRDb2xvciIgZD0ibTQ4OC44MzIgMzQ0LjMybC0zMzkuODQgMzU2LjY3MmEzMiAzMiAwIDAgMCAwIDQ0LjE2bC4zODQuMzg0YTI5LjQ0IDI5LjQ0IDAgMCAwIDQyLjY4OCAwbDMyMC0zMzUuODcybDMxOS44NzIgMzM1Ljg3MmEyOS40NCAyOS40NCAwIDAgMCA0Mi42ODggMGwuMzg0LS4zODRhMzIgMzIgMCAwIDAgMC00NC4xNkw1MzUuMTY4IDM0NC4zMmEzMiAzMiAwIDAgMC00Ni4zMzYgMCIvPjwvc3ZnPg==');
+}
+.treatment-topic-svg ul{
+    list-style: none;
+    font-family: "libre Franklin";
+    color: #5d6883;
+    gap: 5px;}
+    
+
+    .treatment-topics{display: none !important;}
+    .treatment-topics.down-ul{
+        display: block !important;
+    }
 .header-right a:hover {
     color: #b86628;
     transform:  scale(1.1);
@@ -89,8 +111,8 @@ body{
 
 .side-menu {
     position: fixed;
-    top: 0;
-    left: -250px; /* Start off-screen */
+    top: 80px;
+    right: -250px; /* Start off-screen */
     width: 250px;
     height: 100%;
     background: #fff;
@@ -101,8 +123,9 @@ body{
 }
 
 .side-menu.show {
-    left: 0; /* Slide in from the left */
+    right: 0; /* Slide in from the left */
     transition: all .6s ease-in-out;
+    overflow-y: auto;
 }
 
 .side-menu ul {
@@ -1427,6 +1450,20 @@ transform: scale(1.5);
 }
 .doct-container .doctorCarousel .owl-carousel{display: block;}
 .earing-down{display: grid;}
+.side-menu li{
+    position: relative;
+}
+.treatment-topic-svg{position: absolute;right: 0px;}
+.treatment-topics{
+    font-family: "libre Franklin";
+    color: #5d6883;
+    font-size: 13px;
+}
+.treatment-topic-svg.down{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
 
 
 @media(max-width:1225px){
@@ -1975,7 +2012,7 @@ transform: scale(1.5);
     .carousel-left h2 {font-size: 20px;}
     .carousel-left p { margin-top: -185px; margin-left: -19px;}
     .treatment-content h1 {  font-size: 29px;}
-    .earing-down {left: 45px;}
+    .earing-down {left: 0px;}
     
     /* .doct-img img {left: 38px;} */
     .foot-resp-container h2 {font-size: 14px;}

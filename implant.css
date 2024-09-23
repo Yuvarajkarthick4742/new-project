@@ -1,0 +1,112 @@
+.implant-head{
+    width: 100%;
+    height: auto;
+}
+.implant-container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+.implant-ul li a{
+    text-decoration: none;
+    color: #5d6883;
+  
+}
+.implant-ul li{
+    list-style: none;
+    padding: 15px;
+    font-size: 20px;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+    font-family: "Libre Franklin";
+    transition: 0.5s ease-in-out;
+}
+.implant-ul li:hover{
+    
+    overflow: hidden;
+    background-color: #c6ccd8;
+    color: white;
+    cursor: pointer;
+}
+.implant-left{
+    border-top: 1px solid black;
+    margin-top: 80px;
+}
+.implant-ul{
+    padding-left: 0px;
+    margin-top: 0px;
+}
+.implant-right{
+    width: 60%;
+    margin: auto;
+   margin-right: 0px;
+}
+.implant-right img{
+    width: 100%;
+    border: 0.5px solid black;
+    padding: 3px;
+    transition: all 0.5s ease-in-out;
+}
+.implant-right img:hover{
+    overflow: hidden;
+}
+.implant-right h2{
+    font-family: "Libre Baskerville";
+    color: #1a2752;
+
+}
+.implant-right p{
+    font-family: "Libre Franklin";
+    color: #5d6883;
+    text-align: justify;
+
+}
+.implant-right h4{
+    font-family: "Libre Baskerville";
+    color: #1a2752;
+    font-size: 22px;
+}
+.implant-box a{
+    text-decoration: none;
+    float: right;
+    border: 1px solid black;
+    padding: 12px 44px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+
+
+
+@media(max-width:992px){
+    .implant-ul li{font-size: 19px;}
+    .implant-right p{font-size: 15px;}
+}
+@media(max-width:992px){
+    .implant-ul li{font-size: 18px;}
+}
+@media(max-width:800px){
+    .implant-ul li{font-size: 17px;}
+    .implant-right p{font-size: 14px;}
+    .implant-right h4{    font-size: 20px;}
+}
+@media(max-width:700px){
+    .implant-ul li{font-size: 15px;}}
+    .implant-right h4{    font-size: 19px;}
+@media(max-width:650px){
+    .implant-container{ display: flex;flex-direction: column;}
+    .implant-right{width: 100%}
+    .implant-ul li{font-size: 18px;}
+    .implant-right p {font-size: 15px}
+    .implant-right h4{    font-size: 18px;}
+}
+
+@media(max-width:430px){
+    .implant-right h4{    font-size: 17px;}
+}
