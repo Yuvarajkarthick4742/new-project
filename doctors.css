@@ -30,7 +30,7 @@
     margin: auto;
 }
 .team-img2{
-    width: 80%;
+    width: 90%;
 }
 .team-img3{
     width: 80%;
@@ -184,7 +184,8 @@ height: auto;
     @media(max-width:800px){
         .team-empty {width: 670px;}
         .team-images{    left: 60px;}
-        .better-content {width: 61%;}
+        .better-content {width: 61%;}.team-img2{ width: 80%;}
+
     }
     @media(max-width:750px){
         .team-empty {width: 620px;}

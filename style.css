@@ -1245,9 +1245,60 @@ transform: scale(1.5);
     background-color: white;
     gap: 25px;
     transition: transform (0.5s) ease-in-out;
+    display: flex;
+    align-items: center;
    }
-   .id-one a:hover svg path{fill: red;
-    transform:scale(1.0) ;
+   .id-two a{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    gap: 25px;
+    transition: transform (0.5s) ease-in-out;
+    display: flex;
+    align-items: center;
+   }
+   .id-three a{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    gap: 25px;
+    transition: transform (0.5s) ease-in-out;
+    display: flex;
+    align-items: center;
+   }
+   .id-four a{
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    gap: 25px;
+    transition: transform (0.5s) ease-in-out;
+    display: flex;
+    align-items: center;
+   }
+   .id-one a:hover {
+    background-color:#1DA1F2;
+    color: white;
+   transition: all 0.5s ease-in-out;
+   }
+   .id-two a:hover {
+    background-color:#0077B5;
+    color: white;
+    transition: all 0.5s ease-in-out;
+   }
+   .id-three a:hover {
+    background: linear-gradient(45deg, #F58529, #FEDA77);
+    background: linear-gradient(45deg, #DD2A7B, #F58529);
+    background: linear-gradient(45deg, #4F2A8F, #DD2A7B);
+    color: white;
+    transition: all 0.5s ease-in-out;
+   }
+   .id-four a:hover {
+    background-color: #1877F2;
+    color: white;
+    transition: all 0.5s ease-in-out;
    }
    .footer-id{
     display: flex;
@@ -1286,16 +1337,17 @@ transform: scale(1.5);
     text-decoration: none;
     color: #434e72;
 }
-.addres-mail{
+.address-mail{
     display: flex;
+    gap: 10px;
     align-items: center;
-
 }
 .address-mail a{
     text-decoration: none;
     color: #434e72;
-    gap: 10px;
+    
 }
+
 .address{
     font-family: "libre Franklin";
     font-size: 12px;
@@ -1306,7 +1358,7 @@ transform: scale(1.5);
 }
 .footer-id {
     padding-top: 70px;
-    gap: 35px;
+    gap: 10px;
 }
 .footer-id p{
     display: flex;
@@ -1324,7 +1376,7 @@ transform: scale(1.5);
     justify-content: space-between;
     font-family: "libre Franklin";
     color: #434e72;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 .earing-svg{
     width: 80px;
@@ -1344,9 +1396,22 @@ transform: scale(1.5);
 }
 .parts-down {display: flex;}
 .id-one{
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 45px;
 }
+.id-two{
+    width: 40px;
+    height: 45px;
+}
+.id-three{
+    width: 40px;
+    height: 45px;
+}
+.id-four{
+    width: 40px;
+    height: 45px;
+}
+
 .box{background-color: white;}
 .foot-resp-head{
     width: 100%;
@@ -1544,10 +1609,7 @@ transform: scale(1.5);
     .doctorCarousel.owl-carousel{ overflow: hidden;display: block !important}
     .doctorCarousel.owl-carousel .owl-stage-outer .owl-item{left: -25px;}
     .earing-head {height: 270px;}
-    .earing-head::before {
-        content: "";
-        background: rgb(211 217 224 / 80%) none repeat scroll 0 0;
-        position: absolute;height: 270px;}
+    .earing-head::before {content: ""; background: rgb(211 217 224 / 80%) none repeat scroll 0 0; position: absolute;height: 270px;}
     .earing-down.owl-carousel {top: -15px;}
     .doctor-content p{margin-bottom: 5px;}
     .header-right{gap: 45px;}
@@ -1651,9 +1713,16 @@ transform: scale(1.5);
     .topuh {font-size: 32px;}
     .bottomuh {font-size: 14px;}
     .footer-4box{    width: 90%;}
-    .footer-id { margin-top: -80px; justify-content: flex-end;}
-    .id-one{width: 15px; height: 15px;}
-    .treatment-content h1{margin-top: -80px;}
+    .footer-id { margin-top: -75px; justify-content: flex-end;}
+    .id-one{width: 30px; height: 15px;}
+    .id-two{width: 30px; height: 15px;}
+    .id-three{width: 30px; height: 15px;}
+    .id-four{width: 30px; height: 15px;}
+    .id-one a {padding: 5px;}
+    .id-two a {padding: 5px;}
+    .id-three a {padding: 5px;}
+    .id-four a {padding: 5px;}
+    .treatment-content h1{margin-top: 80px;}
     .doctor-content h1 {font-size: 40px;}
     .treatment-content{margin-top: 100px;}
     .blogs-container{padding-top: 50px;}
@@ -1677,6 +1746,8 @@ transform: scale(1.5);
     .doctorCarousel .owl-dots .owl-dot { height: 5px;width: 20px;}
     .doct-profile a,.doct-book a{margin: 0px;}
     .doct-profile a{border: 1px solid black;}
+    .footer-logo1 img {
+        width: 65%;}
 
 
 }
@@ -1734,8 +1805,7 @@ transform: scale(1.5);
     .testimonials-img {left: 180px; top: 0px;}
    .earing-down.owl-carousel {top: -9px;}
    .doct-content h2{font-size: 17px;}
-   .doct-content h3 {
-    font-size: 12px;}
+   .doct-content h3 {font-size: 12px;}
     .doct-book a{padding: 8px;}
     .doct-profile a {padding: 8px;}
     .treatment-content {width: 90%;}
@@ -1877,6 +1947,17 @@ transform: scale(1.5);
     .testimonial-content{left: -30px;}
     .box{display: none;}
     .parts-top h3 a {padding: 20px 115px;}
+    .id-one{width:25px; height: 15px;}
+    .id-two{width: 25px; height: 15px;}
+    .id-three{width: 25px; height: 15px;}
+    .id-four{width: 25px; height: 15px; }
+    .id-one a{padding: 4px;}
+    .id-two a{padding: 4px;}
+    .id-three a{padding: 4px;}
+    .id-four a{padding: 4px;}
+    .footer-id {
+    margin-top: -74px;
+    justify-content: end;}
 
 }
 
@@ -1956,6 +2037,8 @@ transform: scale(1.5);
         .testimonials-img {left: 125px;}
         .parts-container {width: 100%; margin: auto;}
         .side-menu{width: 200px;}
+        .footer-logo1 img {
+            width: 76%;}
 
         
         
