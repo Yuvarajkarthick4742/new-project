@@ -159,7 +159,7 @@
     .contact2-down {left: 90px; top: -95px;}
 }
 @media(max-width:480px){
-    .contact2-down input {width: 85px; height: 30px;}
+    .contact2-down input {width: 260px;margin-bottom: 10px;}
     .contact2-down textarea{width: 260px; height: 110px;} 
     .contact2-down h2 {font-size: 32px;}
     .contact2-down {left: 90px; top: -95px;}
