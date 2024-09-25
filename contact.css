@@ -1,0 +1,189 @@
+.contact-head{
+    width: 100%;
+    height: auto;
+}
+.contact-container{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    
+}
+.contact-img img{
+    width: 100%;
+    height:auto;
+    position: relative;
+}
+.contact-img img::before{
+    content: "";
+    background: rgba(57, 58, 59, 0.63);
+   position: absolute;
+   height:auto;
+   width: 100%;
+   z-index: 1;
+}
+.contact2-head{
+    width: 100%;
+    height: auto;
+}
+.contact2-container{
+    width: 100%;
+    margin: auto;
+}
+.contact2-top{
+    content: "";
+    width: 100%;
+    height: 500px;
+    background-color: #e8e4e4;
+    position: relative;
+}
+.contact2-down input{
+    width: 255px;
+    height: 40px;
+    background-color: #e8e4e4;
+    border: 1px solid transparent;
+  
+}
+.contact2-down textarea{
+    display: block;
+    width: 780px;
+    height: 150px;
+    margin-top: 30px;
+    background-color: #e8e4e4;
+}
+.contact2-down{
+    width: 65%;
+    margin: auto;
+    align-items: center;   
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: -130px;
+    left: 200px;
+    justify-content: center;
+    border: 1px solid black;
+   
+}
+.contact2-down h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Libre Baskerville";
+    color: #1a2752;
+}
+.contact2-down p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 45px;
+    font-family: "libre Franklin";
+    color: #5d6883;
+}
+.contact2-down h3{
+    text-align: center;
+    background-color: #647cb4;
+    padding: 10px;
+    font-family: "Libre Baskerville";
+}
+
+
+
+
+@media(max-width:1225px){
+    .contact2-down input {width: 240px;}
+    .contact2-down textarea{width: 730px;}
+}
+@media(max-width:1124px){
+    .contact2-down input {width: 235px;}
+    .contact2-down textarea{width: 710px;}
+    .contact2-down {width: 66%;}
+}
+@media(max-width:1100px){
+    .contact2-down input {width: 210px;}
+    .contact2-down textarea{width: 650px;}
+}
+@media(max-width:1000px){
+    .contact2-down input {width: 200px;}
+    .contact2-down textarea{width: 600px;}
+}
+@media(max-width:992px){
+    .contact2-down input {width: 180px;}
+    .contact2-down textarea{width: 550px;}  
+}
+
+@media(max-width:913px){
+    .contact2-down{    left: 150px;}
+    .contact2-down input {width: 170px;}
+    .contact2-down textarea{width: 530px;}  
+}
+@media(max-width:851px){
+    .contact2-down h2{font-size: 37px;}
+    .contact2-down p {font-size: 16px;}
+    .contact2-down input {width: 170px;}
+    .contact2-down input {width: 160px;}
+    .contact2-down textarea{width: 510px;}  
+
+}
+@media(max-width:800px){
+    .contact2-down h3{font-size: 15px;}
+    .contact2-down input {width: 150px;}
+    .contact2-down textarea{width: 470px;} 
+}
+@media(max-width:750px){
+    .contact2-down input {width: 140px;}
+    .contact2-down textarea{width: 440px; height: 120px;} 
+}
+@media(max-width:700px){
+    .contact2-down input {width: 130px; height: 35px;}
+    .contact2-down textarea{width: 420px; height: 110px;} 
+    .contact2-down {left: 120px;}
+}
+@media(max-width:650px){
+    .contact2-down input {width: 120px; height: 35px;}
+    .contact2-down textarea{width: 390px; height: 110px;} 
+    .contact2-down h2 {font-size: 35px;}
+    .contact2-down p {font-size: 14px;}
+    .contact2-down {left: 110px;}
+}
+@media(max-width:600px){
+    .contact2-down input {width: 110px; height: 35px;}
+    .contact2-down textarea{width: 350px; height: 100px;} 
+}
+@media(max-width:550px){
+    .contact2-down input {width: 100px;}
+    .contact2-down textarea{width: 320px;} 
+    .contact2-down {left: 100px;}
+
+}
+@media(max-width:500px){
+    .contact2-down input {width: 90px; height: 35px;}
+    .contact2-down textarea{width: 300px; height: 110px;} 
+    .contact2-down h2 {font-size: 33px;}
+    .contact2-down {left: 90px; top: -95px;}
+}
+@media(max-width:480px){
+    .contact2-down input {width: 85px; height: 30px;}
+    .contact2-down textarea{width: 260px; height: 110px;} 
+    .contact2-down h2 {font-size: 32px;}
+    .contact2-down {left: 90px; top: -95px;}
+}
+@media(max-width:430px){
+    .contact2-down input {width: 250px;margin-bottom: 10px;}
+    .contact2-down textarea{width: 240px; height: 100px;}
+    .contact2-down{top: -80px; left: 75px;}
+    .contact2-down h2 {font-size: 30px;}
+}
+@media(max-width:400px){
+    .contact2-down input {width: 230px;}
+    .contact2-down textarea{width: 220px;}
+    .contact2-down{top: -75px; left: 70px;}
+
+}
+@media(max-width:375px){
+    .contact2-down { top: -70px;left: 65px;}
+    .contact2-down input {width: 210px;}
+    .contact2-down textarea{width: 210px;}
+    .contact2-top{height: 535px;}
+}
+@media(max-width:350px){
+    .contact2-down { top: -65px;left: 60px;}
+    .contact2-down input {width: 200px;}
+    .contact2-down textarea{width: 200px;}
+}

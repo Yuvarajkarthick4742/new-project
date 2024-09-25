@@ -69,6 +69,15 @@ body{
     .treatment-topics.down-ul{
         display: block !important;
     }
+
+
+    .treatment-topics li a{
+        text-decoration: none;
+        color: #1a2752;
+        font-family: "Libre Franklin";
+        font-size: 13px;
+        font-weight: 400;
+    }
 .header-right a:hover {
     color: #b86628;
     transform:  scale(1.1);

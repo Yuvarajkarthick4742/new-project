@@ -142,6 +142,8 @@ height: auto;
 }
 
 
+
+
 @media(max-width:1184px){
 .team-para h2{font-size: 22px;}
 .team-para h3{font-size: 16px;}
@@ -237,6 +239,7 @@ height: auto;
 
     @media(max-width:375px){
         .better-content {width: 85%; left: 34px}
+        .better-content h2 {font-size: 15px;}
     }
 
    

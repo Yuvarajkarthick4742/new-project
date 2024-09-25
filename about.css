@@ -1,0 +1,157 @@
+.about-head{
+    width: 100%;
+    height: auto;
+}
+.about-container{
+    background-image: url(./aboutus.webp);
+    background-position: 50% 50%;
+    height: 280px;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.about-container::before{
+    content: "";
+    background: rgba(57, 58, 59, 0.63);
+   position: absolute;
+    height: 280px;
+    width: 100%;
+    margin: auto;
+}
+.about-content {
+    position: absolute;
+}
+.about-content h1 {
+    font-family: "Libre Baskerville";
+    color: white;
+    margin-top: 75px;
+    margin-left: 350px;
+    font-size: 35px;
+}
+.about-content h3 {
+    font-family: "libre Franklin";
+    font-weight: 500;
+    color: white;
+    margin-top: -12px;
+    margin-left: 350px;
+    font-size: 18px;
+}
+.aboutpara-h1 h2{
+      text-align: center;
+      font-family: "Libre Baskerville";
+      color: #1a2752;
+      text-align: center;
+      font-size: 30px;
+}
+.about-para{
+    width: 90%;
+    margin: auto;
+    font-family: "libre Franklin";
+    color: #5d6883;
+    text-align: justify;
+}
+.about-color{
+    width: 70%;
+    background-color: #647cb4;
+    margin: auto;
+    color: white;
+    font-weight: 600;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+
+
+
+
+
+
+@media (max-width:1184px){
+    .about-content h1{font-size: 34px;}
+    .about-content h3{font-size: 17px;}
+    
+
+}
+@media (max-width:1100px){
+   
+    .about-content h1 {font-size: 32px;}
+    .about-content h3 {font-size: 16px;}
+   
+}
+@media (max-width:1028px){
+    .about-content h1 {font-size: 30px;}
+    .about-content h3 {font-size: 16px;}
+   
+}
+@media (max-width:992px){
+    .about-content h1 {margin-left: 200px;}
+    .about-content h3 {margin-left: 200px;}
+    .about-para p{font-size: 15px;}
+    .about-color {font-size: 15px;}
+    .aboutpara-h1 h2  {font-size: 28px;}
+   
+}
+
+@media (max-width:851px){
+    .about-content h1 {margin-left: 160px;} 
+    .about-content h3 {margin-left: 160px;} 
+}
+
+
+@media (max-width:700px){
+    .about-content h1 {font-size: 28px;}
+    .about-para p{font-size: 14px;}
+    .about-color {font-size: 14px;}
+    .aboutpara-h1 h2  {font-size: 25px;}
+    
+}
+
+@media (max-width:600px){
+    .about-content h1 {font-size: 27px;}
+    .about-content h1 {margin-left: 95px;}
+    .about-content h3 {margin-left: 95px;}
+}
+@media (max-width:550px){
+    .about-content h1 {margin-left: 85px;}
+    .about-content h3 {margin-left: 85px;}
+    .about-content h1{font-size: 24px;}
+    .about-content h3{font-size: 15px;}
+}
+
+@media (max-width:500px){
+    .about-content h1 {margin-left: 75px;}
+    .about-content h3 {margin-left: 75px;}
+    .aboutpara-h1 h2  {font-size: 24px;}
+}
+
+@media (max-width:481px){
+    .about-content h1 {margin-left: 65px;}
+    .about-content h3 {margin-left: 65px;}
+    .about-content h1{font-size: 23px;}
+    .about-content h3{font-size: 14px;}
+}
+@media (max-width:430px){
+    .about-content h1 {margin-left: 50px;}
+    .about-content h3 {margin-left: 50px;}
+    .about-content h1{font-size: 22px;}
+    .about-content h3{font-size: 14px;}
+    .aboutpara-h1 h2  {font-size: 22px;}
+    
+}
+@media (max-width:400px){
+    .about-content h1 {margin-left: 40px;}
+    .about-content h3 {margin-left: 40px;}
+    .about-content h1{font-size: 21px;}
+}
+@media (max-width:375px){
+    .about-content h1 {margin-left: 25px;}
+    .about-content h3 {margin-left: 25px;}
+    .about-content h1{font-size: 20px;}
+}
+
+@media (max-width:337px){
+    .about-content h1 {margin-left: 15px;}
+    .about-content h3 {margin-left: 15px;}
+    .about-content h1{font-size: 19px;}
+}
