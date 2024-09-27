@@ -99,20 +99,20 @@
             </div>
             
 
-            <div class="carosel-bottom">
+            <div class="carosel-bottom" id="counter">
                 <div class="bottom-one">
-                <p class="topuh">30+ <br></p>
+                <p class="topuh count-head" data-count="30">0 <br></p>
                 <p class="bottomuh">years of <br> Experience</p>
             </div>
           
              <div class="bottom-two">
-                <p class="topuh">10+</p>
+                <p class="topuh count-head" data-count="10">0</p>
                 <p class="bottomuh">Doctors</p>
             </div>
 
 
                 <div class="bottom-three">
-                <p class="topuh">50+</p>
+                <p class="topuh count-head" data-count="50">0</p>
                 <p class="bottomuh" >Treatments</p>
             </div>
         </div>
@@ -267,6 +267,7 @@
            
             <div class="earing-down earingCarousel  owl-carousel">
                 <div class="earing-one">
+                    
                     <svg class="earing-svg" xmlns="http://www.w3.org/2000/svg" version="1.2" viewBox="0 0 512 512" width="auto" height="auto">
                         <title>ear (1)</title>
                         <defs>
@@ -377,7 +378,7 @@
         </div>
         </div>
     </div> 
-    </body></section>
+    </section>
 
 
     <section class="doct-head">
@@ -425,7 +426,7 @@
                 <div class="doct-content">
                     <h2>Dr. Anjana Visvanathan</h2>
                     <h3>SKULL BASE & OTONEUROSURGEON</h3>
-                    <p class="doct-name">Dr. Anjana Visvanathan holds MBBS from Madras Medical college Fellow -Department of General Surgery (kastruba Medical College -Manipal) Resident Department of ENT,Head & Neck Surgery (kastruba Medical College -Manipal)</p>
+                    <p class="doct-name">Dr. Anjana Visvanathan holds MBBS from Madras Medical college Fellow -Department of General Surgery (kastruba Medical College -Manipal) Head & Neck Surgery (kastruba Medical College -Manipal)</p>
                     <div class="doct-box">
                         <p class="doct-profile"><a href="./doctor3.html">View profile</a></p>
                         <p class="doct-book"><a href="./contact.html">Book appointment</a></p>
@@ -1200,6 +1201,42 @@ navText : ['<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewB
 </script>
 
 
+
+
+
+<script>
+    var counted = 0;
+        $(window).scroll(function() {
+        
+          var oTop = $('#counter').offset().top - window.innerHeight;
+          if (counted == 0 && $(window).scrollTop() > oTop) {
+            $('.count-head').each(function() {
+              var $this = $(this),
+                countTo = $this.attr('data-count');
+              $({
+                countNum: $this.text()
+              }).animate({
+                  countNum: countTo
+                },
+        
+                {
+        
+                  duration: 2000,
+                  easing: 'swing',
+                  step: function() {
+                    $this.text(Math.floor(this.countNum));
+                  },
+                  complete: function() {
+                    $this.text(this.countNum);
+                  }
+        
+                });
+            });
+            counted = 1;
+          }
+        
+        });
+</script>
 
 
 </body>

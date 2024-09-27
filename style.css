@@ -123,18 +123,21 @@ body{
     top: 80px;
     right: -250px; /* Start off-screen */
     width: 250px;
-    height: 100%;
+    height: 65%;
     background: #fff;
-    box-shadow: 2px 0px 5px rgba(0,0,0,0.5);
+    box-shadow: 5px 0px 7px rgba(0,0,0,0.5);
     transition: left 0.3s ease;
-    padding: 20px;
+    padding: 5px;
     z-index: 1000;
+    border: 1px solid transparent;
+    border-radius: 2px 2px 25px 10px;
 }
 
 .side-menu.show {
     right: 0; /* Slide in from the left */
     transition: all .6s ease-in-out;
     overflow-y: auto;
+    background-color: #449484;
 }
 
 .side-menu ul {
@@ -150,7 +153,7 @@ body{
 
 .side-menu a {
     text-decoration: none;
-    color: #1a2752;
+    color: white;
     font-family: "Libre Franklin";
     font-size: 14px;
     font-weight: 600;
@@ -220,7 +223,7 @@ gap: 15px;
 .nav-button {
 width: 20px;
 height: 20px;
-background-color: rgb(29, 19, 86);
+background-color: rgb(128, 127, 133);
 transform: rotate(45deg);
 cursor: pointer;
 border: 2px solid #1e2e54;
@@ -232,7 +235,7 @@ background-color: #333;
 #slide1:checked ~ .navigation label:nth-child(1),
 #slide2:checked ~ .navigation label:nth-child(2),
 #slide3:checked ~ .navigation label:nth-child(3) {
-background-color: #333;
+background-color: #1e2e54;
 }
 .carousel-left{
     position: absolute;
@@ -311,6 +314,11 @@ transform: scale(1.2) ;
        margin: 0px;
        font-family: "Libre Baskerville";
        color: #1a2752;
+       position: relative;
+}
+.topuh::after{
+    position: absolute;
+    content: "+";
 }
 .bottomuh{
     font-size: 16px;
@@ -448,7 +456,7 @@ transform: scale(1.2) ;
     position: relative;
 }
 .parts-container{
-
+    margin-bottom: 70px;
     width: 90%;
     margin: auto;
 }
@@ -770,7 +778,7 @@ font-size: 41px;
     gap: 10px;
 }
 .doctorCarousel.owl-carousel{
-    width: 90% !important;
+    width: 80% !important;
 }
 .doct-top{
    width: 90%;
@@ -842,12 +850,13 @@ font-size: 41px;
     color: #40579c;
     background-color: #ecf0fb;
     font-family: "libre Franklin";
-    transition: 0.8s ease-in-out;
+    transition: 1.1s ease-in-out;
     padding: 12px;
 }
 .doct-profile a:hover{
     color:#ecf0fb ;
     background-color: #40579c;
+    transform: scale(1.05);
 }
 .doct-book a{
     border: 1px solid transparent;
@@ -868,6 +877,8 @@ font-size: 41px;
 
 .doctorCarousel.owl-carousel{
     display: flex !important;
+    gap: 20px;
+    margin-top: -75px;
 }
 .owl-carousel{
     width: 80%;
@@ -1394,7 +1405,7 @@ transform: scale(1.5);
     display: flex;
     
 }
-.parts-down {display: flex;}
+.parts-down {display: flex; }
 .id-one{
     width: 40px;
     height: 45px;
@@ -1526,6 +1537,8 @@ transform: scale(1.5);
 .earing-down{display: grid;}
 .side-menu li{
     position: relative;
+    border-bottom: 1px solid;
+    padding: 5px;
 }
 .treatment-topic-svg{position: absolute;right: 0px;}
 .treatment-topics{

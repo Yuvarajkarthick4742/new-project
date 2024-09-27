@@ -9,10 +9,10 @@
 }
 .implant-ul li a{
     text-decoration: none;
-    color: #5d6883;
+    color: black;
   
 }
-.implant-ul li{
+.implant-ul li {
     list-style: none;
     padding: 15px;
     font-size: 20px;
@@ -21,11 +21,12 @@
    border-right: 1px solid black;
     font-family: "Libre Franklin";
     transition: 0.5s ease-in-out;
+   
 }
 .implant-ul li:hover{
-    
+    transform: scale(1.05);
     overflow: hidden;
-    background-color: #c6ccd8;
+    background-color: #449285;
     color: white;
     cursor: pointer;
 }
@@ -68,15 +69,21 @@
     font-size: 22px;
 }
 .implant-box a{
+    margin-bottom: 10px;
     text-decoration: none;
     float: right;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 12px 44px;
-    background-color: black;
+    background-color: #449285;
     color: white;
     display: flex;
     align-items: center;
     gap: 5px;
+    transition: all 0.5s ease-in-out;
+}
+.implant-box a:hover{
+    background-color: white;
+    color: #449285;
 }
 
 

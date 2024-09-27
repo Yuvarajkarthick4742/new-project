@@ -58,7 +58,6 @@
     grid-template-columns: repeat(3,1fr);
 }
 .team-img1 img{
-    margin-top: -20px;
     border: 10px solid #e47b23;
 }
 .team-img2 img{
@@ -76,7 +75,7 @@
 }
 .team-para h3{
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     font-family: "libre Franklin";
     color: #1a2752;
 }
