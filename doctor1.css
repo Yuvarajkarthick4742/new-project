@@ -70,13 +70,14 @@
     text-decoration: none; 
     float: right; 
     border: 1px solid white; 
-    padding: 12px 44px; 
     background-color: #449285; 
     color: white; 
     display: flex; 
     align-items: center; 
     gap: 5px; 
     transition: all 0.5s ease-in-out;
+    border-radius: 25px 25px 25px 25px;
+    padding: 12px 25px; 
 }
 .dr1-box a:hover{
     color: #449285;
