@@ -2049,7 +2049,7 @@ transform: scale(1.5);
         .rating { right: -59%;top: -32px;}
         .testimonials-img {left: 125px;}
         .parts-container {width: 100%; margin: auto;}
-        .side-menu{width: 200px;}
+        .side-menu{width: 200px; height: 50%;}
         .footer-logo1 img {
             width: 76%;}
 
