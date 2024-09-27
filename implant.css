@@ -30,6 +30,9 @@
     color: white;
     cursor: pointer;
 }
+.implant-ul li:hover a{
+    color: white;
+}
 .implant-left{
     border-top: 1px solid black;
     margin-top: 100px;
@@ -51,6 +54,8 @@
 }
 .implant-right img:hover{
     overflow: hidden;
+    transform: scale(1.03);
+   
 }
 .implant-right h2{
     font-family: "Libre Baskerville";
