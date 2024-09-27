@@ -123,21 +123,20 @@ body{
     top: 80px;
     right: -250px; /* Start off-screen */
     width: 250px;
-    height: 65%;
+    height: 100%;
     background: #fff;
-    box-shadow: 5px 0px 7px rgba(0,0,0,0.5);
+    box-shadow: 5px 0px 5px rgba(0,0,0,0.5);
     transition: left 0.3s ease;
-    padding: 5px;
+    padding: 20px;
     z-index: 1000;
     border: 1px solid transparent;
-    border-radius: 2px 2px 25px 10px;
+    border-radius: 2px 2px 20px 10px;
 }
 
 .side-menu.show {
     right: 0; /* Slide in from the left */
     transition: all .6s ease-in-out;
     overflow-y: auto;
-    background-color: #449484;
 }
 
 .side-menu ul {
@@ -153,7 +152,7 @@ body{
 
 .side-menu a {
     text-decoration: none;
-    color: white;
+    color: #1a2752;
     font-family: "Libre Franklin";
     font-size: 14px;
     font-weight: 600;
@@ -1537,8 +1536,6 @@ transform: scale(1.5);
 .earing-down{display: grid;}
 .side-menu li{
     position: relative;
-    border-bottom: 1px solid;
-    padding: 5px;
 }
 .treatment-topic-svg{position: absolute;right: 0px;}
 .treatment-topics{
@@ -2049,7 +2046,7 @@ transform: scale(1.5);
         .rating { right: -59%;top: -32px;}
         .testimonials-img {left: 125px;}
         .parts-container {width: 100%; margin: auto;}
-        .side-menu{width: 200px; height: 50%;}
+        .side-menu{width: 200px;}
         .footer-logo1 img {
             width: 76%;}
 
